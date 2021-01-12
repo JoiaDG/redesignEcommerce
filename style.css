@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar a{
+    margin: 0px; 
+    width: 100%; 
+    height: 100%; 
+    text-decoration: none;
+    color: gray;
+}
+.navbar{
+    font-weight: bolder;
+    position: relative;
+    background-color: white;
+    border-top: 10px #006241 solid;
+    z-index: 10;
+    width: 100%;
+    padding-bottom: 30px;
+    box-shadow: 10px 6px 58px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 10px 6px 58px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 10px 6px 58px 0px rgba(0,0,0,0.28);
+}
+.navbar div{
+    display: inline-block;
+}
+.left ul li{
+    display: inline;
+    padding:5px;
+    background-color: white;
+}
+.selected{
+    background-color: white;
+    border-bottom: 1px solid #006241;
+}
+a:hover{
+    color: black;
+}
+.left ul li:hover{
+    background-color: white;
+    border-bottom: 1px solid #006241;
+}
+.left{
+    float: left;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 30px
+}
+.center{
+    position: relative;
+    padding-left: 25%;
+    padding-right: 20%;
+}
+.center img{
+    position: relative;
+    align-items: center;
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+}
+.center span{
+    font-weight: bold;
+    display: block;
+}
+.right{
+    float:right;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+.right span{
+    font-size: 15px;
+}
+.right img{
+    
+    width: 15px;
+}
+/* Contenido central */
+.body img{
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+}
+.body{
+    margin-bottom: 0;
+}
+/* De la pgina menu, el contenido es este... */
+.cardMenu{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    box-shadow: 10px 6px 58px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 10px 6px 58px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 10px 6px 58px 0px rgba(0,0,0,0.28);
+}
+.imagen p{
+    background-color: white;
+    padding: 10px;
+    color: #006241;
+    border: 0;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.imagen{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    border: 0;
+    border-radius: 15px;
+}
+.cardMenu h1{
+    text-align: center;
+    position: relative;
+}
+.cardMenu h2{
+    text-align: center;
+    font-weight: 500;
+}
+.contenido{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+
+}
+.contenido img{
+    width: 10%;
+    position: relative;
+    display: block;
+}
+
+.bebidas, .alimentos{
+    position: relative;
+    text-align: center;
+    width: 45%;
+    margin:2%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.botonLocation{
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    padding:10px;
+    border:0;
+    border-radius: 20px;
+    font-size:15px;
+    background-color:  #006241;
+}
+.botonLocation:hover{
+    background-color:  #003d29;
+    transition:500ms;
+}
+.textTitle{
+    font-weight: bold;
+    color: #003d29;
+    font-size: 20px;
+}
+/* diseño de la pestañita de social */
+.social{
+    background-color: rgb(207, 207, 207);
+    /* transform: translateY(-15px); */
+    font-size: 40px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: rgb(87, 87, 87);
+    position: relative;
+}
+.social i:hover{
+    color: rgb(126, 126, 126);
+    transition: 300ms;
+}
+.follow{
+    margin: 0;
+    display: block;
+    font-size: 15px;
+}
+/* diseño del footer */
+.footer{
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    margin-top: 0;
+    background-color: whitesmoke;
+
+}
+.footer ul{
+    margin-top: 2%;
+    position: relative;
+    display:inline-block;
+    vertical-align: top;
+    list-style: none;
+    margin-left: 10px;
+}
+.voltear{
+    font-weight: bolder;
+    float: right;
+    margin-top: 5%;
+    transform: rotate(-90deg);
+}
+.starbucks{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.footer .reg{
+    font-weight: bolder;
+    float: right;
+    transform: rotate(-90deg);
+}
+.footer li{
+    margin-bottom:20px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+
+}
+.footer a:hover{
+    color: rgb(170, 170, 170);
+}
+.footer .title{
+    font-weight: bold;
+    font-size: 17px;
+}
+/* añadido al footer esta el navsito */
+.navcito{
+    width: 100%;
+    text-align: center;
+}
+.navcito p{
+    font-size: 10px;
+    color: rgb(61, 61, 61);
+}
+.navcito ul li{
+    color:rgb(68, 68, 68);
+    display: inline;
+    margin-right: 20px; 
+    font-size: 12px;
+}
